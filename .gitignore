@@ -1,0 +1,41 @@
+# Ignore build directories
+/builddir/
+*.o
+*.a
+*.out
+*.so
+
+# Meson build system directories and files
+/meson-logs/
+/meson-private/
+
+# Ignore executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore temporary and swap files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# Ignore Python cache if using Python for scripting
+__pycache__/
+*.py[cod]
+
+# Ignore VSCode specific files
+.vscode/
+*.code-workspace
+
+# Ignore logs
+*.log
+
+# Ignore Git files
+.git/
+
+# Ignore any other hidden system files or directories
+*.env
